@@ -12,6 +12,11 @@ Once Helm is set up properly, add the repo as follows:
 helm repo add ot-helm https://ot-container-kit.github.io/helm-charts
 ```
 
+To add exactly this fork:
+```shell
+helm repo add dm3ch-ot-helm https://dm3ch.github.io/opstree-helm-charts
+```
+
 You can then run `helm search repo ot-helm` to see the charts.
 
 ### Helm Charts List
